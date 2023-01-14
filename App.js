@@ -1,28 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import Navigation from './components/Navigation';
-import Slider from './components/Slider';
-import Card from './cards/Card';
-import Scroller from './components/Scroller'
-import Special_Product from './components/Special_Product';
-import Footer from './components/Footer';
+import Navigation from './Navigation';
+import Slider from './Slider';
+import Card from './Card';
+import Scroller from './Scroller'
+import Special_Product from './Special_Product';
+import Footer from './Footer';
 import React from 'react';
 import 'tachyons'
-import Signin from './components/Signin';
-import T_shirts from './components/products-pages/T-shirts';
-import SearchBox from './components/products-pages/SearchBox';
-import Mugs from './components/products-pages/Mugs';
-import T_Shirts_List from './components/products-pages/T_Shirts_List.js';
-import MugsList from './components/products-pages/MugsList';
-import { t_shirts } from './productsources/T-shirts-product';
-import { mugs } from './productsources/Mugs_product_details';
-import Cart from './components/myCart/Cart';
-import { Cart_Item_List } from './components/myCart/Cart_Item_List';
-import CartList from './components/myCart/CartList';
-import Product_Page from './components/product-page/Product_Page';
-import CardList from './cards/CardList.js'
-import Custom_Mugs from './custom mugs and t-shirts/Custom_Mugs';
-import Custom_Tshirts from './custom mugs and t-shirts/Custom_Tshirts';
+import Signin from './Signin';
+import T_shirts from './T-shirts';
+import SearchBox from './SearchBox';
+import Mugs from './Mugs';
+import T_Shirts_List from './/T_Shirts_List.js';
+import MugsList from './MugsList';
+import Cart from './Cart';
+import { Cart_Item_List } from '.Cart_Item_List';
+import CartList from './CartList';
+import Product_Page from './Product_Page';
+import CardList from './CardList.js'
+import Custom_Mugs from './Custom_Mugs';
+import Custom_Tshirts from './Custom_Tshirts';
 
 class App extends React.Component{
   constructor(){
